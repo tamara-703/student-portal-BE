@@ -1,0 +1,35 @@
+const students = new Student ([
+    {
+        name: "Tamara",
+        major: "Computer science",
+        program: "Undergraduate",
+        graduationYear: 2019,
+        yearsCompleted: 5,
+        phone: 4698972790,
+        email: "tsaadeh@uncc.edu",
+        courses: "data structures"
+    },
+    {
+        name: "Juaman",
+        major: "International studies",
+        program: "Undergraduate",
+        graduationYear: 2019,
+        yearsCompleted: 4,
+        phone: 7046076208,
+        email: "jsaadeh@uncc.edu",
+        courses: "humanities"
+    },
+    {
+        name: "John",
+        major: "Language",
+        program: "Graduate",
+        graduationYear: 2015,
+        yearsCompleted: 4,
+        phone: 5673451289,
+        email: "jsmith@uncc.edu",
+        courses: "japanese II"
+    }
+
+]
+
+)
