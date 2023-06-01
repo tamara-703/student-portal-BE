@@ -20,20 +20,11 @@ router.get('/', async (req,res) => {
 
 })
 
-//route: /student/profile
-//display all student info
-//Index
-router.get('/profile', async (req,res) => {
-    res.send('student profile')
-
-});
-
 //route: /student/register
 //go to new form
 //new
 router.get('/register', (req,res) => {
 
-    // res.render('RegisterCourse');
     res.json(req.body);
 
 })
@@ -83,8 +74,5 @@ router.get('/:id', async (req,res) => {
         res.json(response);
     })
 })
-
-
-//show
 
 module.exports = router;
